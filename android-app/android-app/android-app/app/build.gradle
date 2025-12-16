@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "com.perunasiili.ev3xbox"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.perunasiili.ev3xbox"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+        }
+    }
+}
+
+dependencies {
+}
